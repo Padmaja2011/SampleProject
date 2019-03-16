@@ -29,7 +29,7 @@ public class CalcTest {
       
 	@Test	
       public void testCal() {
-	Calcmul testcalmul=new calcmul();
+	Calcmul testcalmul=new Calcmul();
 	Calculator testcaladd=new Calculator();
 		assertEquals(testcalmul.mul(),18);
 		assertEquals(testcaladd.add(),9);
